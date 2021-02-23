@@ -1,6 +1,7 @@
 # redmine_auto_due_date
 Wery simple plugin. 
 Set a due data to an issue automatically. 
+**Compatible with Redmine 4.1x**
 
 ## Installation
 	git clone git://github.com/0x2c4/redmine_auto_due_date.git /your_redmine_root_directory/plugins/redmine_auto_due_date
