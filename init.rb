@@ -1,4 +1,4 @@
-require File.dirname(__FILE__) + '/lib/redmine_auto_due_date'
+require File.dirname(__FILE__) + '/lib/auto_due_date'
 
 Redmine::Plugin.register :redmine_auto_due_date do
   name 'Redmine Auto Due Date'
