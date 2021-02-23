@@ -9,6 +9,6 @@ Set a due data to an issue automatically.
 	bundle exec rake redmine:plugins:migrate RAILS_ENV=production
 
 ## Changin the due date value
-  edit: redmine_auto_due_date/lib/redmine_auto_due_date.rb
-  Line: context[:issue].due_date ||= Date.today + 14
-  14 is the number of days that will be added to the start date to auto fill the due date.
+	edit: redmine_auto_due_date/lib/redmine_auto_due_date.rb
+	Line: context[:issue].due_date ||= Date.today + 14
+14 is the number of days that will be added to the start date to auto fill the due date.
